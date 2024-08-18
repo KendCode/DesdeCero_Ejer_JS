@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    ---bgcolor---: red;
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+    color: var(---bgcolor---);
+}

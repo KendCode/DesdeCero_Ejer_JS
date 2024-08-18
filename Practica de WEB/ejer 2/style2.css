@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+h1 {
+    color: white;
+}
+.btn{
+    align-content: center;
+    height: 25px;
+    padding-top: 2.5rem;
+    border-radius: 20rem;
+}
+button{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 0;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    width: 9rem;
+}
+button:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 0;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    width: 9rem;
+}
+label{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+input{
+    background-color: transparent;
+    padding-top: 8px;
+    border: solid 1px;
+    font-size: 50px;
+    color: white;
+    text-align: center; 
+}
+input:hover{
+    background-color: rgb(95, 95, 95, 0.3);
+    border: solid 1px rgb(0, 0, 0);
+    font-size: 26px;
+    text-align: center; 
+}
+#ciInput {
+    padding: 10px;
+    font-size: 25px;
+}
+#resultado {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
